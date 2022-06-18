@@ -1,5 +1,5 @@
 {
-  "name": "react-native-reanimated",
+  "name": "@onekeyfe/react-native-reanimated",
   "version": "3.0.0-rc.0",
   "description": "More powerful alternative to Animated library for React Native.",
   "scripts": {
@@ -68,6 +68,9 @@
   "author": {
     "email": "krzys.magiera@gmail.com",
     "name": "Krzysztof Magiera"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "license": "MIT",
   "readmeFilename": "README.md",
