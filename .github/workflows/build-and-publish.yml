@@ -16,8 +16,9 @@ jobs:
         run: |
           yarn
           yarn run type:generate
+          
       - name: Publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
-          yarn publish
+          npm publish
